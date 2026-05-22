@@ -1,0 +1,35 @@
+{
+  "issue": "点击保存后刷新页面配置丢失",
+  "exact_phrases": ["保存", "配置"],
+  "identifiers": [
+    "saveConfig",
+    "saveSettings",
+    "persistSettings",
+    "loadSettings",
+    "getSettings"
+  ],
+  "concept_terms": [
+    "save",
+    "config",
+    "settings",
+    "persist",
+    "storage",
+    "reload",
+    "refresh"
+  ],
+  "storage_terms": [
+    "localStorage",
+    "sessionStorage",
+    "indexedDB"
+  ],
+  "api_terms": [
+    "/settings",
+    "/config"
+  ],
+  "exclude_globs": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "coverage/**"
+  ]
+}
